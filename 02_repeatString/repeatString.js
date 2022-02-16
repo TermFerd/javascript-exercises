@@ -1,11 +1,12 @@
-const repeatString = function(str, numberOfTimes) {
-	 let repeatedString = 'hey';
-     let numberOfTimes = 3;
-     let i;
-     for(i = 0; i < numberOfTimes - 1; i++) {
-        repeatedString += str;
-      }
-     return repeatedString;
+const repeatString = function() {
+	 let longString = "hey";
+     let numberOfTimes = 1;
+     let str = "";
+
+     for(let i = 0; i < numberOfTimes; i++) {
+     	str += longString
+     }
+     return str
 };
 
 
